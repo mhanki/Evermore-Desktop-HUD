@@ -1,0 +1,73 @@
+body{
+  -webkit-app-region: drag;
+  -webkit-user-select: none;
+  user-select: none;
+  font-family: "Roboto", sans serif;
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 1.6;
+  /* text-align: right; */
+  /* background-image: url('http://www.dreamtemplate.com/dreamcodes/bg_images/color/c13.jpg'); */
+}
+
+.app{
+  -webkit-app-region: drag;
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+
+.hub-info{
+  position: relative;
+  z-index: -1;
+  padding: 3px 30px;
+}
+
+.time{
+  width: 245px;
+  font-size: 5em;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.weather{
+  margin-top: 5px;
+}
+
+.weather--title{
+  display: flex;
+  align-items: baseline;
+}
+
+.weather--city{
+  margin: 0;
+  margin-right: 10px;
+  font-size: .8em;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.weather--icon{
+  height: 30px;
+  filter: invert(53%) sepia(47%) saturate(6650%) hue-rotate(166deg) brightness(102%) contrast(101%)
+}
+
+.weather--info{
+  margin: 0px;
+  font-size: 16px;
+}
+
+.weather--temp{
+  margin-top: 10px;
+}
+
+.photo{
+  -webkit-app-region: no-drag;
+  height: 230px;
+  width: 230px;
+  object-fit: cover;
+  border-radius: 5px;
+  /* object-position: center -7px; */
+  border: 3px solid rgba(252, 252, 252, 0.2);
+}

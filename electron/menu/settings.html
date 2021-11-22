@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="stylesheet" type="text/css" href="settings.css" />
+    <script type="module" src="settingsRenderer.js"></script>
+    <title>LD Hub Settings</title>
+  </head>
+  <body>
+    <div id="settings">
+      <div class="setting">
+        <p>Show picture:</p>
+        <label class="switch">
+          <input id="picture-setting" type="checkbox">
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <div class="setting">
+        <p>Select picture:</p>
+        <button id="picture-select">Select</button>
+      </div>
+      <div class="setting">
+        <p>Choose Text Color:</p>
+        <input id="color-picker" type="color" />
+      </div>
+    </div>
+  </body>
+</html>
